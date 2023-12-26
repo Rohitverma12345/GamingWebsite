@@ -1,0 +1,159 @@
+/* .home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .intro-text, .whats-inside, .community-section, .cta-buttons, .follow-us {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .explore-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  .subscribe-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2196F3;
+  }
+   */
+
+
+
+.destination{
+    margin: 4rem 6rem;   
+}
+
+.destination h1{
+    font-size: 3rem;
+
+}
+
+.destination h1 span{
+    font-size: 3rem;
+    color: rgba(226,58,58);
+}
+.first-des{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.first-des-reverse{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.des-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.des-text h2{
+    padding-bottom: 1rem;
+}
+
+.image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+    /* height: 50vh;
+    width: 50vh; */
+}
+
+.image img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
+}
+
+.image img:nth-child(2){
+    /* position: absolute; */
+    /* top: -10%;
+    right: 0; */
+    height: 500px;
+}
+
+.image img:nth-child(1){
+    /* position: absolute; */
+    /* top: -10%;
+    right: 0; */
+    /* height: 500px; */
+    margin-top: 80px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .destination{
+        margin: 4rem 2rem;
+    }
+
+    .first-des{
+        /* margin-left: 40px;
+        margin-right: 40px; */
+        display: flex;
+        flex-direction: column-reverse;
+        
+        margin-top: 2.5rem;
+        /* position: absolute; */
+    }
+
+    .des-text{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+    .first-des-reverse{
+        /* margin-left: 40px;
+        margin-right: 40px; */
+        display: flex;
+        flex-direction: column-reverse;
+        
+        margin-top: 2.5rem;
+    }
+    
+}

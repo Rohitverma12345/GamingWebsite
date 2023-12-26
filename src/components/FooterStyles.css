@@ -1,0 +1,58 @@
+/* Footer Styles */
+.footer-content {
+    background-color: black;
+    color: #ecf0f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about h2,
+  .contact h2 {
+    color: rgba(226,58,58);
+    /* text-align: left;
+    margin-left: 75px; */
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+    /* height: auto; */
+    width: 80%;
+    margin-left: 60px;
+    /* align-items: left; */
+  }
+  
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    /* text-decoration: underline; */
+    color: aquamarine;
+  }
+
+  
+  .footer-bottom {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+    color: #bdc3c7;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 850px){
+    .footer-section p {
+        font-size: 14px;
+        line-height: 1.5;
+        height: auto;
+        width: 80%;
+        margin-left: 35px;
+    }
+  }
